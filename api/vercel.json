@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "api/get-distance.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/api/get-distance", "dest": "api/get-distance.js" }
-  ]
-}
